@@ -1,0 +1,18 @@
+2019-05-29 17:45:38 5576     [INFO] Opening Design: Donald_AR_final2_tmp.cce
+2019-05-29 17:46:51 5576  [WARNING] HyperLynx: Invalid voltage value. Valid voltage range is: -999V to 999V.
+2019-05-29 17:46:57 5576  [WARNING] HyperLynx: Invalid voltage value. Valid voltage range is: -999V to 999V.
+2019-05-29 17:47:01 5576  [WARNING] HyperLynx: Invalid voltage value. Valid voltage range is: -999V to 999V.
+2019-05-29 17:57:44 5576     [INFO] Close HyperLynx Session: Design file: Donald_AR_final2_tmp.cce Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-05-29 17:57:49 5576     [INFO] Closing Design: Donald_AR_final2_tmp.cce
+2019-05-29 17:57:50 5576     [INFO] ****** Closing HyperLynx 
+2019-05-29 17:58:01 15876     [INFO] Opening Design: Donald_AR_final2_tmp.cce
+2019-05-29 18:00:09 15876    [ERROR] DC Engine failed: No connected VRMs found in power net 
+2019-05-29 18:05:09 15876     [INFO] Close HyperLynx Session: Design file: Donald_AR_final2_tmp.cce Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-05-29 18:05:11 15876     [INFO] Closing Design: Donald_AR_final2_tmp.cce
+2019-05-29 18:05:12 15876     [INFO] ****** Closing HyperLynx 
+2019-05-29 19:11:52 16468     [INFO] Opening Design: Donald_AR_final2_tmp.cce
+2019-05-29 19:12:11 16468  [WARNING] Prepare BoardData: One or more large pads were detected and converted into copper areas.
+2019-05-29 19:12:17 16468  [WARNING] Close Thermal Session: Save thermal data (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-05-29 19:12:26 16468     [INFO] Close HyperLynx Session: Design file: Donald_AR_final2_tmp.cce Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-05-29 19:12:33 16468     [INFO] Closing Design: Donald_AR_final2_tmp.cce
+2019-05-29 19:12:34 16468     [INFO] ****** Closing HyperLynx 

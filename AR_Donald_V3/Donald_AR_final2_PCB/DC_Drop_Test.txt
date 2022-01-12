@@ -1,0 +1,74 @@
+<design>Donald_AR_final2_tmp.cce</design>
+<message>HyperLynx v9.4</message>
+<message>05/29/19 18:04:28</message>
+<message>Design: Donald_AR_final2_tmp.cce</message>
+<message>HyperLynx v9.4 Power Integrity</message>
+<message>DC Drop Analysis Results for U5V</message>
+<message>\n</message>
+<message>    Pin          Current(A) Voltage(V)</message>
+<message>--------------------------------------</message>
+<message>  1 <link type=LOCATION x=0.15367 y=0.0538226 elemType=PIN>BTLED1.1</link>         0.0150     4.9496</message>
+<message>  2 <link type=LOCATION x=0.155575 y=0.172568 elemType=PIN>BTLED2.1</link>         0.0150     4.9424</message>
+<message>  3 <link type=LOCATION x=0.155575 y=0.189713 elemType=PIN>BTLED3.1</link>         0.0150     4.9417</message>
+<message>  4 <link type=LOCATION x=0.15367 y=0.0360426 elemType=PIN>BTLED4.1</link>         0.0150     4.9495</message>
+<message>  5 <link type=LOCATION x=0.0604774 y=0.003175 elemType=PIN>BTLED5.1</link>         0.0150     4.9753</message>
+<message>  6 <link type=LOCATION x=0.0593344 y=0.219075 elemType=PIN>BTLED6.1</link>         0.0150     4.9380</message>
+<message>  7 <link type=LOCATION x=0.0989076 y=0.219075 elemType=PIN>BTLED7.1</link>         0.0150     4.9374</message>
+<message>  8 <link type=LOCATION x=0.0944626 y=0.003175 elemType=PIN>BTLED8.1</link>         0.0150     4.9748</message>
+<message>  9 <link type=LOCATION x=0.009017 y=0.121158 elemType=PIN>DC_3.1</link>           0.1000     4.9849</message>
+<message> 10 <link type=LOCATION x=0.014732 y=0.059563 elemType=PIN>DIS1.1</link>           0.1000     4.9847</message>
+<message> 11 <link type=LOCATION x=0.022352 y=0.082423 elemType=PIN>IMU1.1</link>           0.1000     4.9896</message>
+<message> 12 <link type=LOCATION x=0.12192 y=0.053975 elemType=PIN>MH1.1</link>            0.1000     4.9530</message>
+<message> 13 <link type=LOCATION x=0.12954 y=0.053975 elemType=PIN>MH2.1</link>            0.1000     4.9519</message>
+<message> 14 <link type=LOCATION x=0.037592 y=0.07493 elemType=PIN>XT2.30</link>          -0.7201     4.9993</message>
+<message> 15 <link type=LOCATION x=0.041402 y=0.025654 elemType=PIN>XT3.7</link>            0.1000     4.9764</message>
+<message>\n</message>
+<message>\n</message>
+<message>Voltage source vias (or pads)</message>
+<message>DCPort Location(X, Y)     Diameter Layer Current(A) Voltage(V)</message>
+<message>--------------------------------------------------------------</message>
+<message>  1    <link type=LOCATION x=0.037592 y=0.07493 elemType=VIA>(<coord format=%7.3f>0.037592</coord>, <coord format=%7.3f>0.07493</coord>)</link>  <coord format=%7.3f>0.001524</coord>     1    -0.7201     4.9993</message>
+<message>\n</message>
+<message>Current sink vias (or pads)</message>
+<message>DCPort Location(X, Y)     Diameter Layer Current(A) Voltage(V)</message>
+<message>--------------------------------------------------------------</message>
+<message>  1    <link type=LOCATION x=0.041402 y=0.025654 elemType=VIA>(<coord format=%7.3f>0.041402</coord>, <coord format=%7.3f>0.025654</coord>)</link>  <coord format=%7.3f>0.001524</coord>     1     0.1000     4.9764</message>
+<message>  2    <link type=LOCATION x=0.009017 y=0.121158 elemType=VIA>(<coord format=%7.3f>0.009017</coord>, <coord format=%7.3f>0.121158</coord>)</link>  <coord format=%7.3f>0.00125253</coord>     1     0.1000     4.9849</message>
+<message>  3    <link type=LOCATION x=0.15367 y=0.0538226 elemType=VIA>(<coord format=%7.3f>0.15367</coord>, <coord format=%7.3f>0.0538226</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9496</message>
+<message>  4    <link type=LOCATION x=0.155575 y=0.172568 elemType=VIA>(<coord format=%7.3f>0.155575</coord>, <coord format=%7.3f>0.172568</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9424</message>
+<message>  5    <link type=LOCATION x=0.014732 y=0.059563 elemType=VIA>(<coord format=%7.3f>0.014732</coord>, <coord format=%7.3f>0.059563</coord>)</link>  <coord format=%7.3f>0.001524</coord>     1     0.1000     4.9847</message>
+<message>  6    <link type=LOCATION x=0.155575 y=0.189713 elemType=VIA>(<coord format=%7.3f>0.155575</coord>, <coord format=%7.3f>0.189713</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9417</message>
+<message>  7    <link type=LOCATION x=0.12954 y=0.053975 elemType=VIA>(<coord format=%7.3f>0.12954</coord>, <coord format=%7.3f>0.053975</coord>)</link>  <coord format=%7.3f>0.001524</coord>     1     0.1000     4.9519</message>
+<message>  8    <link type=LOCATION x=0.12192 y=0.053975 elemType=VIA>(<coord format=%7.3f>0.12192</coord>, <coord format=%7.3f>0.053975</coord>)</link>  <coord format=%7.3f>0.001524</coord>     1     0.1000     4.9530</message>
+<message>  9    <link type=LOCATION x=0.15367 y=0.0360426 elemType=VIA>(<coord format=%7.3f>0.15367</coord>, <coord format=%7.3f>0.0360426</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9495</message>
+<message> 10    <link type=LOCATION x=0.0604774 y=0.003175 elemType=VIA>(<coord format=%7.3f>0.0604774</coord>, <coord format=%7.3f>0.003175</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9753</message>
+<message> 11    <link type=LOCATION x=0.0593344 y=0.219075 elemType=VIA>(<coord format=%7.3f>0.0593344</coord>, <coord format=%7.3f>0.219075</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9380</message>
+<message> 12    <link type=LOCATION x=0.0989076 y=0.219075 elemType=VIA>(<coord format=%7.3f>0.0989076</coord>, <coord format=%7.3f>0.219075</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9374</message>
+<message> 13    <link type=LOCATION x=0.0944626 y=0.003175 elemType=VIA>(<coord format=%7.3f>0.0944626</coord>, <coord format=%7.3f>0.003175</coord>)</link>  <coord format=%7.3f>0.0009652</coord>     1     0.0150     4.9748</message>
+<message> 14    <link type=LOCATION x=0.022352 y=0.082423 elemType=VIA>(<coord format=%7.3f>0.022352</coord>, <coord format=%7.3f>0.082423</coord>)</link>  <coord format=%7.3f>0.001524</coord>     1     0.1000     4.9896</message>
+<message>\n</message>
+<message>Other vias</message>
+<message>Via Location(X, Y)     Diameter    Layers Current(A) Voltage drop(mV)</message>
+<message>-----------------------------------------------------------------------</message>
+<message>  1 <link type=LOCATION x=0.041402 y=0.025654 elemType=VIA>(<coord format=%7.3f>0.041402</coord>, <coord format=%7.3f>0.025654</coord>)</link>  <coord format=%7.3f>0.0009525</coord>     1 - 2     0.0300             0.00</message>
+<message>  2 <link type=LOCATION x=0.022352 y=0.082423 elemType=VIA>(<coord format=%7.3f>0.022352</coord>, <coord format=%7.3f>0.082423</coord>)</link>  <coord format=%7.3f>0.0009525</coord>     1 - 2     0.1000             0.00</message>
+<message>  3 <link type=LOCATION x=0.075184 y=0.219202 elemType=VIA>(<coord format=%7.3f>0.075184</coord>, <coord format=%7.3f>0.219202</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2    -0.0300            -0.00</message>
+<message>  4 <link type=LOCATION x=0.075184 y=0.180848 elemType=VIA>(<coord format=%7.3f>0.075184</coord>, <coord format=%7.3f>0.180848</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2     0.0300             0.00</message>
+<message>  5 <link type=LOCATION x=0.155575 y=0.171069 elemType=VIA>(<coord format=%7.3f>0.155575</coord>, <coord format=%7.3f>0.171069</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2    -0.0600            -0.00</message>
+<message>  6 <link type=LOCATION x=0.018796 y=0.112268 elemType=VIA>(<coord format=%7.3f>0.018796</coord>, <coord format=%7.3f>0.112268</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2    -0.1000            -0.00</message>
+<message>  7 <link type=LOCATION x=0.024892 y=0.070612 elemType=VIA>(<coord format=%7.3f>0.024892</coord>, <coord format=%7.3f>0.070612</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2     0.5201             0.02</message>
+<message>  8 <link type=LOCATION x=0.023876 y=0.060706 elemType=VIA>(<coord format=%7.3f>0.023876</coord>, <coord format=%7.3f>0.060706</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2    -0.5201            -0.02</message>
+<message>  9 <link type=LOCATION x=0.15367 y=0.050038 elemType=VIA>(<coord format=%7.3f>0.15367</coord>, <coord format=%7.3f>0.050038</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2     0.0600             0.00</message>
+<message> 10 <link type=LOCATION x=0.027686 y=0.05334 elemType=VIA>(<coord format=%7.3f>0.027686</coord>, <coord format=%7.3f>0.05334</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2     0.1300             0.01</message>
+<message> 11 <link type=LOCATION x=0.027686 y=0.032004 elemType=VIA>(<coord format=%7.3f>0.027686</coord>, <coord format=%7.3f>0.032004</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2    -0.1300            -0.01</message>
+<message> 12 <link type=LOCATION x=0.040132 y=0.011811 elemType=VIA>(<coord format=%7.3f>0.040132</coord>, <coord format=%7.3f>0.011811</coord>)</link>  <coord format=%7.3f>0.0010033</coord>     1 - 2    -0.0300            -0.00</message>
+<message>\n</message>
+<message>Layer Legend</message>
+<message> ID      Layer Name</message>
+<message>------------------------</message>
+<message>  1      Top</message>
+<message>  2      Bottom</message>
+<message>\n</message>
+<error>Max Voltage Drop 62.6mV at pin <link type=LOCATION x=0.0989076 y=0.219075 elemType=PIN>BTLED7.1</link>. Test failed.</error>
+<error>Max Current Density <cdensity format=%.1f show_units=yes>5.20104e+007</cdensity> at <link type=LOCATION x=0.0361303 y=0.0759576>(<coord>0.0361303</coord>, <coord>0.0759576</coord>)</link>, layer Top. Test failed.</error>
+<message>Max Via Current 520.1mA at <link type=LOCATION x=0.024892 y=0.070612 elemType=VIA>(<coord>0.024892</coord>, <coord>0.070612</coord>)</link> between layers 1 and 2. Test passed.</message>
